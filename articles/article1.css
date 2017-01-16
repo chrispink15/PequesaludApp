@@ -4,9 +4,17 @@ a:link{
 
 body{
     background-color: #FF8A80;
-
 }
-#header{
+
+.container{
+  background-color: #FF8A80
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+/*#header{
   background-color: #2196F3;
   text-align: center;
   padding: 5px;
@@ -16,21 +24,60 @@ body{
   margin-left: -7px;
   margin-right: -7px;
   font-family: 'Dosis', sans-serif;
-}
 
-#articulo{
+}*/
+
+/*#NavBar {
+  padding-top: 1px;
+  padding-bottom: 2px;
+
+}*/
+
+/*ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
   background-color: white;
-  padding: 8px 8px;
-  border-radius: 2px;
-  margin-top: 4px;
-  box-shadow: 1px 1px 1px 1px gray;
-  font-family: 'Dosis', sans-serif;
+  box-shadow: 1px black;
+
+  margin-top: 3px;
+*/
+
 }
 
-#title{
+/*li {
+
+  float: left;
+}
+li:hover{
+background-color: #E3F2FD;
+}*/
+
+li a {
+  display: table;
+  color: black;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  border-color: red;
+  border-width: 2px;
+  font-family: 'Dosis', sans-serif;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E3F2FD;
+}*/
+
+
+h3{
   text-align:left;
   font-family: 'Dosis', sans-serif;
 }
+
 p{
   font-family: 'Dosis', sans-serif;
 }
