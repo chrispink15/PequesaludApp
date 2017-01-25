@@ -2,6 +2,7 @@ body{
     background-color: #FF8A80;
 }
 
+
 .container{
   background-color: #FF8A80
 }
@@ -20,6 +21,16 @@ body{
 .navbar-collapse collapse in{
   background: white;
 }
+
+
+.container{
+  background-color: #FF8A80
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
 
 li a {
   display: table;
