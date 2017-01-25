@@ -1,8 +1,16 @@
 body{
-  background-color: red ;
+  background-color: #FF8A80 ;
 }
 .container{
   background-color: #FF8A80;
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
 }
 
 /*#header{
@@ -18,63 +26,6 @@ body{
 
 }*/
 
-/*#NavBar {
-  padding-top: 1px;
-  padding-bottom: 2px;
-
-}*/
-
-/*ul {
-  list-style-type: none;
-  margin: 1px;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  box-shadow: 1px black;
-
-  margin-top: 3px;
-*/
-
-}
-
-/*li {
-
-  float: left;
-}
-li:hover{
-background-color: #E3F2FD;
-}*/
-
-li a {
-  display: table;
-  color: black;
-  text-align: center;
-  padding: 14px 22px;
-  text-decoration: none;
-  border-color: red;
-  border-width: 2px;
-  font-family: 'Dosis', sans-serif;
-  background-color: white;
-  box-shadow: 1px 1px 1px 1px gray;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #E3F2FD;
-}*/
-
-#card{
-background-color: white;
-padding: 8px 8px;
-border-radius: 2px;
-margin-top: 2px;
-box-shadow: 1px 1px 1px 1px gray;
-font-family: 'Dosis', sans-serif;
-}
-
-#card:hover{
-background-color: #ECEFF1;
-}
 #favorite{
 color: #EEEEEE;
 margin-left: 300px;
@@ -104,4 +55,11 @@ a:active{
 h2{
   border-bottom: 2px solid #f1f1f1;
   width: inherit;;
+}
+
+#bs-nav-demo{
+  background: white;
+}
+.navbar-collapse collapse in{
+  background: white;
 }
