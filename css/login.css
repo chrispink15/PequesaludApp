@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFEB3B;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container-fluid {
+  background-color: #2196F3;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  color: #2196F3;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+/*.login {
+  width: 85%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 10px;
+}*/
+
+.container {
+  width: 18.5em;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.button{
+  width: 96px;
+  margin: auto;
+}
+
+.btn.btn-default {
+  width: 5.1875em;
+  font-size: 18px;
+  background-color: #2196F3;
+  border-radius: 0px;
+  color: white;
+}
+
+p {
+  margin-top: 5px;
+}
