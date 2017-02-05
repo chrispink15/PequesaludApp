@@ -1,16 +1,34 @@
-body{
-  background-color: #FF8A80 ;
+* {
+  box-sizing: border-box;
 }
-.container{
-  background-color: #FF8A80;
+
+body{
+  background-color: #FFEB3B;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  background-color: #2196F3;
+  font-family: 'Dosis', sans-serif;
 }
 
 .navbar-header{
   background: #2196F3;
 }
 
+.navbar-default {
+  background: #2196F3;
+  border-color: transparent;
+}
+
 .navbar-default .navbar-brand {
   color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
 }
 
 /*#header{
@@ -54,7 +72,7 @@ a:active{
 
 h2{
   border-bottom: 2px solid #f1f1f1;
-  width: inherit;;
+  width: inherit;
 }
 
 #bs-nav-demo{
@@ -62,4 +80,20 @@ h2{
 }
 .navbar-collapse collapse in{
   background: white;
+}
+
+.caption{
+  font-family: 'Dosis', sans-serif;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
 }
