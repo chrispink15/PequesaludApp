@@ -1,0 +1,33 @@
+body{
+    background-color: #FF8A80;
+}
+
+.container{
+  background-color: #FF8A80
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+#bs-nav-demo{
+  background: white;
+}
+.navbar-collapse collapse in{
+  background: white;
+}
+.panel-body{
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn-group{
+  margin-left: 43%;
+  font-size: 13px;
+}

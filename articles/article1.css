@@ -1,0 +1,80 @@
+body{
+    background-color: #FF8A80;
+}
+
+
+.container{
+  background-color: #FF8A80
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+#bs-nav-demo{
+  background: white;
+}
+.navbar-collapse collapse in{
+  background: white;
+}
+
+
+.container{
+  background-color: #FF8A80
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+
+li a {
+  display: table;
+  color: black;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  border-color: red;
+  border-width: 2px;
+  font-family: 'Dosis', sans-serif;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E3F2FD;
+}*/
+
+
+h3{
+  text-align:left;
+  font-family: 'Dosis', sans-serif;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+}
+a:link{
+  text-decoration: none;
+  text-decoration-color: white;
+
+}
+
+a:visited{
+  color: white;
+}
+a:active{
+  text-decoration-color: white;
+}
+img{
+  text-align: center;
+}
+
+#bs-nav-demo{
+  background: white;
+}
