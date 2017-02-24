@@ -145,3 +145,16 @@ a:active{
 .mdl-demo .mdl-card__supporting-text + .mdl-card__actions {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+.mdl-button--fab.mdl-button--colored {
+  background-color: #2196F3;
+}
+.mdl-button--fab {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  z-index: 900;
+}
