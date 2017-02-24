@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFEB3B;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #2196F3;
+  font-family: 'Dosis', sans-serif;
+}
+
+.navbar-header{
+  background: #2196F3;
+}
+
+.navbar-default {
+  background: #2196F3;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+#favorite{
+color: #EEEEEE;
+margin-left: 300px;
+margin-bottom: -10px;
+margin-top: -15px;
+font-size: 30px;
+background-color:clear;
+}
+
+#favorite:hover{
+color: #FF1744;
+}
+
+a:link{
+  text-decoration: none;
+  text-decoration-color: black;
+
+}
+
+a:visited{
+  color: black;
+}
+a:active{
+  text-decoration-color: black;
+}
+
+h2{
+  border-bottom: 2px solid #f1f1f1;
+  width: inherit;
+}
+
+#bs-nav-demo{
+  background: white;
+}
+.navbar-collapse collapse in{
+  background: white;
+}
+
+h3{
+  text-align:left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+a:link{
+  text-decoration: none;
+  text-decoration-color: white;
+
+}
+
+a:visited{
+  color: white;
+}
+a:active{
+  text-decoration-color: white;
+}
+img{
+  text-align: center;
+}
+
+#bs-nav-demo{
+  background: white;
+  font-family: 'Dosis', sans-serif;
+}
+
+.row {
+  margin-top: 10px;
+}
+.col-sm-6.col-md-4 {
+  padding: 0px;
+}
+
+.thumbnail {
+  margin: 5px 20px 20px 20px;
+}
