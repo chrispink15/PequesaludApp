@@ -1,2 +1,0 @@
-# PequesaludApp
-Pequesalud 
