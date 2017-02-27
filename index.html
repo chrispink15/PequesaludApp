@@ -55,7 +55,7 @@
                 </div>
               </a>
               <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Share</a>
+                <button class="shareBtn">SHARE</button>
               </div>
             </div>
           </section>
@@ -71,7 +71,7 @@
                 </div>
               </a>
               <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Share</a>
+                <button class="shareBtn">SHARE</button>
               </div>
             </div>
           </section>
@@ -87,11 +87,59 @@
                 </div>
               </a>
               <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Share</a>
+                <button class="shareBtn">SHARE</button>
               </div>
             </div>
           </section>
         </div>
+
+        <div id="shareForm" class="share-modal">
+          <div class="shareFormCont">
+            <div class="shareFormHeader">
+              <span class="close">&times;</span>
+              <h3>Share</h3>
+            </div>
+            <div class="shareFormBody">
+              <!-- email -->
+              <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+                <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+              </a>
+              <!-- Facebook -->
+              <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+              </a>
+              <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+              </a>
+              <!-- Google+ -->
+              <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+              </a>
+              <!-- LinkedIn -->
+              <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+              </a>
+              <!-- Pinterest -->
+              <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+                <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+              </a>
+              <!-- Print -->
+              <a href="javascript:;" onclick="window.print()">
+                <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+              </a>
+              <!-- Reddit -->
+              <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+              </a>
+              <!-- Tumblr-->
+              <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+              </a>
+
+            </div>
+        </div>
+      </div>
+
       </main>
 
     </div>
@@ -103,7 +151,7 @@
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="index.js"></script>
     <!-- Javascript for firebase -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
