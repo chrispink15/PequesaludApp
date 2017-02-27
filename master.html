@@ -51,7 +51,7 @@
               <a  href="articles/article1.html" class="mdl-card__supporting-text">
                 <div>
                   <h4>Dengue en Puerto Rico</h4>
-                  El virus zika es un virus que es causado por la picadura de un mosquito y se cataloga como un arbovirus.
+                  <p>El virus zika es un virus que es causado por la picadura de un mosquito y se cataloga como un arbovirus.</p>
                 </div>
               </a>
               <div class="mdl-card__actions">
@@ -67,7 +67,7 @@
               <a  href="articles/article1.html" class="mdl-card__supporting-text">
                 <div>
                   <h4>Zika en Puerto Rico?</h4>
-                  El virus zika es un virus que es causado por la picadura de un mosquito y se cataloga como un arbovirus.
+                  <p>El virus zika es un virus que es causado por la picadura de un mosquito y se cataloga como un arbovirus.</p>
                 </div>
               </a>
               <div class="mdl-card__actions">
@@ -83,7 +83,7 @@
               <a  href="articles/article1.html" class="mdl-card__supporting-text">
                 <div>
                   <h4>Volvera el Chikunguya?</h4>
-                  Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
               </a>
               <div class="mdl-card__actions">
@@ -93,6 +93,21 @@
           </section>
         </div>
 
+        <div class="mdl-layout__tab-panel is-active" id="overview">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <a  href="articles/article1.html" class="mdl-card__supporting-text">
+                <div>
+                  <h4><span id="display_title"></span></h4>
+                  <p><span id="display_article"></span></p>
+                </div>
+              </a>
+              <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">Share</a>
+              </div>
+            </div>
+          </section>
+        </div>
         <!-- Facebook -->
     <!-- <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
@@ -130,11 +145,13 @@
               <h1>New Article</h1>
             </div>
             <div class="artFormBody">
-              <input id="titulo" type="text" placeholder="Titulo">
-              <br>
-              <textarea id="informacion" name="textarea" rows="5" cols="30">Write something here</textarea>
-              <br>
-              <button id="publicar">publicar</button>
+              <form>
+                <input id="titulo" type="text" placeholder="Titulo">
+                <br>
+                <textarea id="informacion" name="textarea" rows="5" cols="30"></textarea>
+                <br>
+                <input type="button" id="publicar" onclick="showMessage();" value="publicar"/></button>
+              </form>
             </div>
         </div>
       </div>

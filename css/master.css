@@ -239,3 +239,17 @@ textarea{
   margin-left: 10%;
   border-color: #2196F3;
 }
+
+#display_title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+#display_article{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}

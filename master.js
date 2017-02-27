@@ -3,7 +3,14 @@ var articleForm = document.getElementById('artForm');
 var span = document.getElementsByClassName("close")[0];
 var publishButton = document.getElementById("publicar");
 var display = document.getElementById('user_input');
-var title = document.getElementById('titulo');
+var title = document.getElementById('titulo').value;
+
+
+var articles = {
+  title: "Dengue en Puerto Rico",
+  message: "El Dengue en Puerto Rico cada dia crece mas, aprende como evitar contagearte.",
+  articulo: "lasjflkasjd;flajsdfjsad afaskldk sa  fs sdf s afs d s d fs  sa ds sad s fsd  s",
+};
 
 articleForm.style.display = "none";
 
@@ -23,6 +30,14 @@ window.onclick = function(event) {
     }
 }
 
-publishButton.onclick = function(){
-  alert(title);
+function showMessage(){
+            var title = document.getElementById("titulo").value;
+            var article = document.getElementById('informacion').value;
+            display_title.innerHTML= title;
+            display_article.innerHTML = article;
+        }
+
+function objArticle(){
+  articles['title'] = title;
+  articles['message'] = article;
 }
