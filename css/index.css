@@ -230,9 +230,25 @@ textarea{
 
 .shareBtn{
   color: #00BCD4;
-  margin-left: 85%;
+  margin-right: 0;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-size: 14px;
   border: 0px;
   background-color: white;
+  float: right;
+}
+
+.fa.fa-star{
+  color: #E0E0E0;
+  font-size: 25px;
+  margin-right: 13%;
+  float: left;
+
+}
+
+.fa.fa-star::after {
+  color: #E91E63;
+  font-size: 25px;
+  margin-right: 13%;
+  float: left;
 }

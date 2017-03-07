@@ -26,6 +26,19 @@ body {
   font-size: 21px;
   font-weight: 500;
 }
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-collapse collapse in{
+  background: white;
+}
 
 h1 {
   color: #2196F3;

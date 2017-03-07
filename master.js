@@ -55,5 +55,5 @@ function objArticle(i){
 
 }
 
-objArticle(0);
-objArticle(1);
+// objArticle(0);
+// objArticle(1);
